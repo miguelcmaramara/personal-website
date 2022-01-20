@@ -10,10 +10,10 @@ import LinkedImg from './LinkedImg'
  */
 function Landing(props){
     return (
-        <div className="Landing">
+        <div id="Landing" className="Landing">
             <div className="backgroundBox">
                 <img className='backgroundImage'
-                    src='/img/background/snow.jpg'
+                    src='/img/background/mountain-clouds.jpg'
                     alt='Snow background image' />
                 <div className="darkFilter"> </div>
             </div>
