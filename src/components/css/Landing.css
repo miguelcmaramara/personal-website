@@ -1,65 +1,64 @@
-.Landing{
+.Landing {
     width: 100%;
     height: 100vh;
-
 }
- 
+
 /* Background */
-.backgroundImage{
-    position:absolute;
+.backgroundImage {
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -99;
 }
 
-.darkFilter{
-    position:absolute;
-    width:100%;
-    height:100%;
-    background: #00000020;
+.darkFilter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
     z-index: -98;
 }
 
 /* Landing content */
-.landingBox{
+.landingBox {
     width: 100%;
     height: 100%;
 
     display: grid;
-    grid-template-columns: 7.5% auto 150px 7.5%;
-    grid-template-rows: auto 150px auto;
-    align-items: center;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 100%;
+    /* align-items: ; */
 }
 
-.nameBox{
-    color:#fef8ec;
+.nameBox {
+    color: #fef8ec;
     /* margin: auto; */
 
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 1/2;
+    padding: 20px;
+    vertical-align: text-top;
+    align-content: center;
+    /* text-align: start; */
 }
 
-.landingText{
+.landingText {
     font-weight: 400;
-    margin:0;
+    margin: 0;
 }
-
 
 /* LOGO */
-.logoBox{
+.logoBox {
     width: 100%;
     height: 100%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
     /* grid-gap:10px; */
-    grid-template-columns: 50% auto;
-    grid-template-rows: 50% auto;
-
-    grid-column: 3/4;
-    grid-row: 2/3;
-
-    align-items: center;
-    justify-items: center;
-
+    background: var(--color-sel);
 }

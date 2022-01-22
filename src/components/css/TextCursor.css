@@ -1,0 +1,19 @@
+@keyframes cursor-blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.TextCursor {
+    /* display: inline-block; */
+    /* position: absolute; */
+    animation: cursor-blink 1s step-end infinite;
+    background-color: var(--color-fg);
+    /* width: 25px;
+    height: 45px; */
+    font-family: "Roboto Mono";
+    font-size: 45px;
+}
