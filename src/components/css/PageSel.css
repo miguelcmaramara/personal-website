@@ -7,7 +7,7 @@
     }
 }
 
-.TextCursor {
+.textCursor {
     /* display: inline-block; */
     /* position: absolute; */
     animation: cursor-blink 1s step-end infinite;
@@ -16,4 +16,8 @@
     height: 45px; */
     font-family: "Roboto Mono";
     font-size: 45px;
+}
+
+.pages .textCursor:hover {
+    display: block;
 }

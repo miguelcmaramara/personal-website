@@ -7,10 +7,10 @@ function App() {
     return (
         <div className="App">
             <Landing scheme="tomorrow-night" />
+            {/* <Landing scheme="gruvbox-dark" /> */}
+            {/* <Landing scheme="tomorrow" /> */}
 
             <CardDeck />
-
-            <AdaptSvg scheme="tomorrow-night" icon="email" />
 
             <div className="footer">
                 <h6>
