@@ -18,6 +18,20 @@
     font-size: 45px;
 }
 
-.pages .textCursor:hover {
+.PageSel {
+    position: relative;
+    display: inline-block;
+}
+
+.pages {
+    position: absolute;
+    display: none;
+}
+
+.PageSel:hover .pages {
+    display: block;
+}
+
+.pageLink {
     display: block;
 }

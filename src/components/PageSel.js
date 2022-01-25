@@ -5,15 +5,23 @@ import "./css/PageSel.css";
 
 function PageSel(props) {
     return (
-        <div className="PageSel">
+        <span className="PageSel">
             <span className="textCursor">&nbsp;</span>
             <div className="pages">
-                <a href="">bio</a>
-                <a href="">projects</a>
-                <a href="">resume</a>
-                <a href="">contact</a>
+                <a className="pageLink" href="">
+                    bio
+                </a>
+                <a className="pageLink" href="">
+                    projects
+                </a>
+                <a className="pageLink" href="">
+                    resume
+                </a>
+                <a className="pageLink" href="">
+                    contact
+                </a>
             </div>
-        </div>
+        </span>
     );
 }
 
