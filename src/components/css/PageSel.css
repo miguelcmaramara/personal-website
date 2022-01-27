@@ -24,8 +24,11 @@
 }
 
 .pages {
+    box-sizing: border-box;
     position: absolute;
     display: none;
+    border: 2px solid var(--color-cm);
+    left: -2px;
 }
 
 .PageSel:hover .pages {
@@ -39,4 +42,15 @@
     font-weight: 100;
     font-size: 45px;
     color: var(--color-fg);
+
+}
+
+.pageLinkBox{
+    width: 250px;
+    background-color: var(--color-cl);
+
+}
+
+.pageLinkBox:hover{
+    background-color: var(--color-sel);
 }

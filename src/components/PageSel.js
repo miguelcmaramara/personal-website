@@ -8,19 +8,26 @@ function PageSel(props) {
         <span className="PageSel">
             <span className="textCursor">&nbsp;</span>
             <div className="pages">
-                <a className="pageLink" href="">
-                    bio
-                </a>
-                <a className="pageLink" href="">
-                    projects
-                </a>
-                <a className="pageLink" href="">
-                    resume
-                </a>
-                <a className="pageLink" href="">
-                    contact
-                </a>
+                <div className="pageLinkBox">
+                    <a className="pageLink" href=""> bio </a>
+                </div>
+                <div className="pageLinkBox">
+                    <a className="pageLink" href=""> projects </a>
+                </div>
+                <div className="pageLinkBox">
+                    <a className="pageLink" href=""> resume </a>
+                </div>
+                <div className="pageLinkBox">
+                    <a className="pageLink" href=""> contact </a>
+                </div>
             </div>
+            <input list="pages" placeholder="test"/>
+            <datalist id="pages">
+                <option>bio</option>
+                <option>projects</option>
+                <option>resume</option>
+                <option>contact</option>
+            </datalist>
         </span>
     );
 }
