@@ -1,0 +1,293 @@
+{
+  "skills": {
+    "Languages": [
+      "C",
+      "C++",
+      "C#",
+      "Java",
+      "Python",
+      "Javascript",
+      "Typescript",
+      "HTML/CSS",
+      "OCaml",
+      "Kotlin",
+      "Bash",
+      "SQL",
+      "MATLAB"
+    ],
+    "Technologies and Frameworks": [
+      "ReactJS",
+      "Express",
+      "p5js",
+      "Node",
+      "Blazor",
+      ".NET",
+      "Dagger",
+      "Arduino",
+      "Jest",
+      "Leaflet",
+      "Gradle",
+      "pyQt",
+      "RPi",
+      "Mongoose"
+    ],
+    "Tooling and Infrastructure": [
+      "MongoDB",
+      "Apache Spark",
+      "Hive",
+      "AWS",
+      "AWS CDK/SDK",
+      "Azure",
+      "Heroku",
+      "Digital Ocean",
+      "Linux",
+      "Windows",
+      "OSX",
+      "Raspian",
+      "Ansible",
+      "Git",
+      "Docker",
+      "Vim"
+    ],
+    "ML and jdata Science": [
+      "Jupyter",
+      "Google Colab",
+      "Pytorch",
+      "Transformers",
+      "Pandas",
+      "Numpy",
+      "Scipy",
+      "TensorFlowLite",
+      "MatPlotLib"
+    ],
+    "Misc": [
+      "Lombok"
+    ],
+    "Technologies": [],
+    "Developer Tooling": [],
+    "OS/Infrastructure": []
+  },
+  "projects": [
+    {
+      "Name": "JEMS Map Creation and Editing Software",
+      "Start": "2023-09-01:00:00.000Z",
+      "End": "2023-12-01:00:00.000Z",
+      "Short Description": "Created a full-stack ReactJS map editing application software complete with sessions, user interactions and a fully-integrated node-managed MongoDB datastore with a group of 4 using test driven development.",
+      "Skills": [
+        "ReactJS",
+        "Node",
+        "MongoDB",
+        "Leaflet",
+        "Digital Ocean",
+        "Typescript",
+        "Express",
+        "Mongoose",
+        "Mantine",
+        "Jest"
+      ]
+    },
+    {
+      "Name": "3D NURBS Interpolator and Approximator.",
+      "Start": "2023-03-01:00:00.000Z",
+      "End": "2023-03-01:00:00.000Z",
+      "Short Description": "Developed a full-stack web application using Node and p5js for simulating Non-Uniform Rational B-Splines that approximate 3D position and orientation quaternion data points used for predicting travel paths of rigid bodies.",
+      "Skills": [
+        "Node",
+        "p5js"
+      ]
+    },
+    {
+      "Name": "Control System for Magnetic Actuators and Soft Robotics",
+      "Start": "2022-09-01:00:00.000Z",
+      "End": "2023-05-01:00:00.000Z",
+      "Short Description": "Designed and built a 3-DOF magnet manipulator with UI, multi-threaded software, and optimized closed-loop multi-motor controller using C, Python, and MicroPython, applying control theory concepts to ensure accurate and stable positioning of the magnet.",
+      "Skills": [
+        "C",
+        "Python",
+        "MicroPython",
+        "pyQt",
+        "asyncio",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "Crypto Exchange Watcher",
+      "Start": "2023-03-01:00:00.000Z",
+      "End": "2023-03-01:00:00.000Z",
+      "Short Description": "Developed C program for logging and aggregating live data from an unlimited number of concurrently loading crypto exchange channels with dynamic thread allocation and async I/O.",
+      "Skills": [
+        "C",
+        "gdp",
+        "make",
+        "stdio",
+        "Linux"
+      ]
+    },
+    {
+      "Name": "DistilBERT Fine Tuning",
+      "Start": "2023-02-01:00:00.000Z",
+      "End": "2023-02-01:00:00.000Z",
+      "Short Description": "Used PyTorch and Huggingface Transformers libraries to fine tune Distilbert LLM on movie reviews with up to 92% precision and explore the effect of layer freezing.",
+      "Skills": [
+        "Python",
+        "Huggingface",
+        "Transformers",
+        "PyTorch",
+        "Pandas",
+        "Numpy"
+      ]
+    },
+    {
+      "Name": "EmbeddedML",
+      "Start": "2021-01-01:00:00.000Z",
+      "End": "2022-05-01:00:00.000Z",
+      "Short Description": "Lead a team of 4, implemented various numerical integration algorithms and filters, optimized web-enabled logging and trained classification model with up to 99% accuracy for handheld, gesture-recognition micro-controllers.",
+      "Bullets": [
+        "Designed and developed a handheld gesture recognition device that leverages machine learning models to classify both acceleration and displacement data into shapes.",
+        "Gathered 1000+ gesture training samples, and trained gesture-recognition machine learning models to differentiate between 5 gestures with up to 99% accuracy.",
+        "Implemented data pipeline from IMU to Web Server for wireless data acquisition, model training, and model deployment.",
+        "Used a wide array of filtering and integration algorithms to transform IMU acceleration data into displacement data."
+      ],
+      "Skills": [
+        "Python",
+        "C++",
+        "TensorFlowLite",
+        "TensorFlow",
+        "Arduino",
+        "Serial Comms",
+        "Numpy",
+        "MatPlotLib"
+      ]
+    },
+    {
+      "Name": "Airborne Object Interception Device",
+      "Start": "2022-06-01:00:00.000Z",
+      "End": "2022-06-01:00:00.000Z",
+      "Short Description": "Utilized CV-enabled camera devices to write a C application hosted on a micro controller to detect an aerial object, fit its travel path to an nth degree polynomial and predict the path of a second intercepting object before hitting the ground.",
+      "Skills": [
+        "MATLAB",
+        "C++",
+        "Arduino",
+        "Serial Comms"
+      ]
+    },
+    {
+      "Name": "Classfinder",
+      "Start": "2022-06-01:00:00.000Z",
+      "End": "2022-06-01:00:00.000Z",
+      "Short Description": "Script that web scraped Stony Brook University academic program bulletins that constructed course dependency graphs in order to optimize graduation time and class scheduling.",
+      "Skills": [
+        "Python",
+        "Scrapy",
+        "Pygraphiz"
+      ]
+    },
+    {
+      "Name": "MFC-CB Event and Attendance Software",
+      "Start": "2021-12-01:00:00.000Z",
+      "End": "2021-12-01:00:00.000Z",
+      "Bullets": [
+        "Created attendance and event system complete with secure database and intuitive client-facing user interface.",
+        "Centralized Database for national level data acquisition, significantly increased reliability, and cut load times by 50% by relying on client-initiated queries.",
+        "System serves 200+ members in 12 Campus Based organizations in Texas, California, Minnesota, and New York."
+      ],
+      "Tags": [
+        "Javascript",
+        "Appscript",
+        "GSuite",
+        "Google Sheets Formulas"
+      ]
+    },
+    {
+      "Name": "Kalihin - Task Managing Web App",
+      "Start": "2022-03-01:00:00.000Z",
+      "End": "2022-03-01:00:00.000Z",
+      "Bullets": [
+        "Currently developing full stack task management and scheduling web application that organizes tasks by a priority algorithm.",
+        "Designed PostgreSQL database hosted by AWS, accessible through RESTful API, and optimized for training a model later on.",
+        "Rewrote previous Flask backend using Django."
+      ],
+      "Tags": [
+        "Django",
+        "Flask",
+        "ReactJS",
+        "PostgreSQL",
+        "Heroku",
+        "AWS"
+      ]
+    },
+    {
+      "Name": "Amazon - Data store replacement and Deprecation",
+      "Start": "2022-08-01:00:00.000Z",
+      "End": "2022-08-01:00:00.000Z",
+      "Bullets": [
+        "Improved database reliability and ease-of-access by combining schema and cutting the number database tables 3.",
+        "Designed and implemented data pipeline that processes 10+ TB of data daily.",
+        "Performed meticulous testing to ensure complete compatibility old tables and their replacements."
+      ],
+      "Tags": [
+        "SQL",
+        "Python",
+        "Hadoop",
+        "AWS"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "Company Name": "Amazon",
+      "Role Name": "Data Engineering Intern",
+      "City": "San Diego",
+      "State": "California",
+      "Start": "2023-05-01:00:00.000Z",
+      "End": "2023-08-01:00:00.000Z",
+      "Descriptions": [
+        "Enhanced productivity by automating developer workflow using AWS CloudFormation, Lambda and ApiGateway, reducing operation time by 50% and minimizing errors through automated testing and custom NPM build processes.",
+        "Leveraged AWS Cloudwatch, DynamoDB, and Eventbridge to detect data discrepancies in 1000+ tables within 5 minutes of load time.",
+        "Provided ample alternatives to team by designing fully realized service stack mock ups before design discussions."
+      ]
+    },
+    {
+      "Company Name": "Applied Visions",
+      "Role Name": "Software Engineering Intern",
+      "City": "Northport",
+      "State": "New York",
+      "Start": "2022-09-01:00:00.000Z",
+      "End": "2023-01-01:00:00.000Z",
+      "Descriptions": [
+        "Utilized .NET ILogger interface to standardize and aggregate logs from Azure App Services, VMs and SQL servers, into single Log Analytics service, catching errors and reducing debugging time by 20%.",
+        "Designed and implemented user verification and document sharing system from database schema to customer-facing UI.",
+        "Designed localization architecture in order to translate web application into various languages and dialects."
+      ]
+    },
+    {
+      "Company Name": "Amazon",
+      "Role Name": "Data Engineering Intern",
+      "City": "San Diego",
+      "State": "California",
+      "Start": "2022-06-01:00:00.000Z",
+      "End": "2022-08-01:00:00.000Z",
+      "Descriptions": [
+        "Deprecated and designed replacements for high-traffic tables, reducing space usage by 30% and downstream processing time by 50% without data loss.",
+        "Loaded and transformed information from data lakes containing 1000+ TB of data using AWS Redshift, S3 and Apache Hive, allowing for processing in AWS Glue and Athena.",
+        "Designed Apache Spark testing suite to assess downstream impact of proposed ETL and DDL changes–ensuring data integrity for 100+ customers in security."
+      ]
+    }
+  ],
+  "education": {
+    "GPA": 3.85,
+    "School Name": "Stony Brook University",
+    "City": "Stony Brook",
+    "State": "New York",
+    "College": [
+      "Honors College",
+      "College of Engineering and Applied Sciences"
+    ],
+    "Major": [
+      "Computer Science",
+      "Mechanical Engineering"
+    ],
+    "Start": "2019-08-26T00:00:00.000Z",
+    "End": "2023-21-23T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,32 @@
+---
+import { Debug } from 'astro:components';
+export interface Props {
+  experience: Experience
+}
+
+interface Experience {
+  [key: string]: any
+}
+
+const { experience } = Astro.props;
+const start = new Date(experience["Start"]);
+const end = new Date(experience["End"]);
+---
+<li class="">
+		<h3>
+			{experience["Company Name"]} | {experience["Role Name"]}
+		</h3>
+    <h4>
+			{start.getMonth()} {start.getFullYear()} - {end.getMonth()} {end.getFullYear()} | {experience["City"]}, {experience["State"]}
+    </h4>
+		<ul>
+			{
+        experience["Descriptions"].map((str: string) =>
+          <li class="font-light text-base list-['-'] list-inside">
+            {/* <p>{str}</p> */}
+            {str}
+          </li>
+        )
+      }
+		</ul>
+</li>
